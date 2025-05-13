@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import design system */
+@import './components.css';
+
+/* Add any global styles here */
+body {
+  color: var(--color-gray-900);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
